@@ -1,7 +1,7 @@
 # CHAPPiE
 ## これはなに
-projekt_graceで運用されているチャットBOTであるチャッピーくんの中身です。
-Pythonが扱える人は好きにいじってね
+あるDiscordサーバで運用されているチャットBOTです。
+miiboを利用した極めてシンプルなチャットBOTなので好きにいじって使ってください。
 
 ## 要望があるんだけど
-[こちら](https://discordapp.com/users/503726686811193344)(Discordリンク)からひろちゃんまで連絡してね
+[こちら](https://discordapp.com/users/503726686811193344)(Discordリンク)まで連絡してください。
