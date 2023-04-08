@@ -8,6 +8,9 @@ load_dotenv()
 
 CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
 BOT_TOKEN = os.getenv('BOT_TOKEN')
+API_KEY = os.getenv('API_KEY')
+AGENT_ID = os.getenv('AGENT_ID')
+UID = os.getenv('UID')
 
 intents = discord.Intents.default()
 intents.typing = False
