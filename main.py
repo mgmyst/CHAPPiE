@@ -23,10 +23,10 @@ def call_api(utterance):
     url = "https://api-mebo.dev/api"
     headers = {"Content-Type": "application/json"}
     data = {
-        "api_key": "bc222440-dacc-44c7-9fb3-4839616b72a0187601cbf571e5",
-        "agent_id": "2030c8a3-5e4c-417a-bc52-abde6533fcc8186de7095d116",
+        "api_key": API_KEY,
+        "agent_id": AGENT_ID,
         "utterance": utterance,
-        "uid": "be85ac08-f19f-42b8-97c9-25d9db90a2911876025e1a01a7",
+        "uid": UID,
     }
     response = requests.post(url, headers=headers, data=json.dumps(data))
     return response.json()
