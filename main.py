@@ -7,11 +7,19 @@ import json
 
 load_dotenv()
 
-CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-API_KEY = os.getenv('API_KEY')
-AGENT_ID = os.getenv('AGENT_ID')
-UID = os.getenv('UID')
+# for local
+# CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
+# BOT_TOKEN = os.getenv('BOT_TOKEN')
+# API_KEY = os.getenv('API_KEY')
+# AGENT_ID = os.getenv('AGENT_ID')
+# UID = os.getenv('UID')
+
+# for heroku
+CHANNEL_ID = int(os.environ.get('CHANNEL_ID'))
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
+API_KEY = os.environ.get('API_KEY')
+AGENT_ID = os.environ.get('AGENT_ID')
+UID = os.environ.get('UID')
 
 intents = discord.Intents.default()
 intents.typing = False
