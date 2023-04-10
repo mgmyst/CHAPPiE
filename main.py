@@ -45,7 +45,7 @@ def call_api(utterance):
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
     channel = client.get_channel(CHANNEL_ID)
-    await channel.send('CHAPPiE has connected to Discord!')
+    # await channel.send('CHAPPiE has connected to Discord!')
     # send_periodic_message.start()
 
 
